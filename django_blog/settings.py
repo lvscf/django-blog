@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i=3qh9)%5ygob!%%9fbm_9%9y&8_5ao!v@p@(&ldxemb1ybip9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.zmrenwu.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -122,3 +122,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+# 执行命令收集静态文件 python manage.py collectstatic
+# STATIC_ROOT = (os.path.join(BASE_DIR, 'static'))
