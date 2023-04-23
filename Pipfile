@@ -10,6 +10,7 @@ gunicorn = "*"
 pipfile = "*"
 
 [dev-packages]
+fabric = "*"
 
 [requires]
 python_version = "3.6"
