@@ -2,3 +2,5 @@
 .DS_Store
 .idea
 _credentials.py
+settings_back.py
+.envs
